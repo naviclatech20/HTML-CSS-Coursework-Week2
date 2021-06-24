@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1 {
+}
+.location h2 {
+  font-weight: 500;
+  font-family: inherit;
+  text-decoration-color: brown;
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+}
+.view img {
+  position: absolute;
+  display: block;
+}
+/*Navigation*/
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin-top: 15px;
+}
+#nav-bar ul li {
+  padding: o 45px;
+}
