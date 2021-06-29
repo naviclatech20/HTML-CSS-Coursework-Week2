@@ -1,0 +1,57 @@
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/**
+   * Add your custom styles below
+   * 
+   * Remember: 
+   * - Be organised, use comments and separate your styles into meaningful chunks
+   *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+   * 
+   * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
+   */
+
+/*Logo style*/
+/* the logo must be beside nav bar*/
+.Starr img {
+  float: left;
+  margin-top: 2em;
+}
+/*Nav bar style*/
+nav {
+  float: right;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 2rem;
+}
+ul li {
+  padding: 1rem;
+}
+/* Store text must be red*/
+.store-red {
+  color: #ff0000;
+}
+buttom {
+  background-color: coral;
+}
+/*style images*/
+.support {
+  display: block;
+  border: 10px dotted chartreuse;
+  max-width: 15rem;
+}
+.Info p {
+}
+/*Style social media*/
+.Connect {
+  display: inline;
+  align-items: flex-end;
+  max-width: 2rem;
+}

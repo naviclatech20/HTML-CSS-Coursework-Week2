@@ -16,31 +16,116 @@ body {
  */
 
 /*Logo style*/
+.Start img {
+  width: 2rem;
+}
 /* the logo must be beside nav bar*/
-.logo {
-  float: left;
-  margin-top: 2em;
+.Start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
 }
 /*Nav bar style*/
-nav {
-  float: right;
+.Start ul {
+  margin: 0;
+  padding: 0;
 }
-nav ul {
+
+.Start li {
+  display: inline-block;
+}
+
+.Start ul li:first-child a {
+  color: #000000;
+  font-weight: bolder;
+}
+.Start a {
+  display: inline-block;
+  text-decoration: none;
+  color: grey;
+  padding: 1.5rem;
+  display: inline-block;
+}
+/* Store text must be orange because they hovered over it*/
+.Start a:hover,
+.Start a:focus {
+  color: #ff4500;
+}
+/*style images: New and important: used wrong image: feature-img.png at the start*/
+.Wherever h1 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+.Wherever a {
+  background-color: orangered;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 1em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.Extended {
+  text-align: center;
+}
+.Extended h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 3rem;
+}
+.Extended img {
+  width: 8rem;
+}
+.Extended div {
   display: flex;
-  flex-direction: row;
-  list-style: none;
-  margin: 2rem;
+  justify-content: center;
 }
-ul li {
-  padding: 1rem;
+.Extended section {
+  margin: 3rem;
 }
-/* Store text must be red*/
-.store-red {
-  text-decoration-color: #ff0000;
+.Extended p {
+  font-size: 1rem;
+  text-align: center;
 }
-/*style images*/
-.support {
-  display: inline;
-  width: 1.5rem;
+
+.Wherever {
+  background-image: url("../img/first-background.jpg");
+  background-position: center;
+  height: 40rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Style social media*/
+.Join {
+  text-align: center;
+  border-top: 2px solid lightgrey;
+  max-width: 85%;
+}
+.Join h2 {
+  font-size: 1rem;
+  font-weight: 250;
+}
+.Join img {
+  width: 2rem;
   height: 1rem;
+}
+.Join ul {
+  margin: 0rem;
+  padding: 0rem;
+}
+.Join li {
+  display: inline-block;
+  border: 1px solid lightgrey;
+  border-radius: 80%;
+  padding: 0.45rem;
+  margin: 0.5rem;
+}
+.Join p {
+  color: #474444;
 }
